@@ -1,0 +1,129 @@
+body{
+    background-color: rgb(237, 236, 236);
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+.hero-banner{
+    position: relative;
+    top: 50px;
+    left:125px;
+    width: 80%;
+    margin-bottom: 50px;
+}
+.header {
+    position: relative;
+    margin-top: 0px;
+    top: 0px;
+    left: 350px;
+    font-size: 80px;
+    margin-bottom: 0px;
+    color: rgb(16, 53, 117);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.tag-line{
+    font-family:Magneto;
+    color: rgb(16, 53, 117);
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    left: 380px;
+    letter-spacing: 10px;
+    font-size: 40px;
+    word-spacing: 10px;
+}
+.tag-line1{
+    font-family:Magneto;
+    color: rgb(16, 53, 117);
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    left: 490px;
+    font-size: 40px;
+    letter-spacing: 10px;
+}
+.product-section {
+	padding-left:15px;
+	padding-right:15px;
+	margin-bottom:20px;
+  margin-top: 10px;
+}
+.product-img {
+	width:auto;
+	height:270px;
+  align-content: center;
+}
+.product-img-center {
+	text-align:center;
+}
+.product-border {
+	border: 1px solid #d1d1d1;
+	padding:30px;
+  width: 300px;;
+}
+.product-name a {
+	color: #232b33;
+	text-decoration: none;
+	font-size: 17px;
+	font-family: 'Roboto', sans-serif, arial;
+}
+.product-original-price {
+	color: #6f6f6f;
+	font-size:14px;
+	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.product-price {
+	margin-top:15px;
+}
+.column {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    margin-top: 10px;
+    }
+.column img {
+    opacity: 1; 
+    cursor: pointer; 
+    }
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+.add-to-cart-btn {
+        background-color: #4caf50;
+        color: #fff;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+      }
+button {
+        cursor: pointer;
+        background-color: rgb(16, 53, 117);
+        color: white;
+        border: none;
+        padding: 10px;
+    }
+ .view{
+        position: relative;
+        cursor: pointer;
+        background-color: rgb(16, 53, 117);
+        color: white;
+        border: none;
+        padding: 10px;
+        top: 15px;
+        left: 1000px ;
+    }
+#cart h2{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 30px;
+     }
+.cart-items {
+    list-style: none;
+    padding: 0;
+    }
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    }
